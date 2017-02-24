@@ -40,3 +40,5 @@ config :mercury_api_analytics, MercuryApiAnalytics.Repo,
   database: "mercury_api_analytics_dev",
   hostname: "localhost",
   pool_size: 10
+
+config :mercury_api_analytics, ecto_repos: [MercuryApiAnalytics.Repo]
